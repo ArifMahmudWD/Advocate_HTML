@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+body, html{
+    overflow-x: hidden;
+}
+
+
+/* --------------Header Start---------------- */
+
+.navbar-brand{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #111111;
+ 
+}
+
+.navbar-nav li a {
+    box-sizing: border-box;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 1px solid #e8bf5d;
+    border-radius: 2px;
+}
+
+.hero-section{
+    height: 95vh;
+    width: 100vw;
+    background-image: url(image/index-hero-banner.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+
+.line img{
+    height: 95px;
+    padding-right: 10px;
+    margin-bottom: 35px;
+}
+.hero-left{
+   width: 50vw;
+   height: 80vh;
+}
+.hero-left h1{
+    color: #ffff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.hero-left h3{
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.hero-right a{
+    text-decoration: none;
+}
+.hero-right button{
+    border: none;
+    outline: none;
+    background-color: #e8bf5d;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.hero-right button:hover{
+    background: transparent;
+    border: 2px solid #e8bf5d;
+}
+
+/* --------------Header End------------------ */
+
+
+/* ----------------About Us Start--------------- */
+.about-heading h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.about-heading h5 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #111111;
+}
+
+.about-us-left{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.about-us-right p{
+    line-height: 28px;
+}
+/* ----------------About Us End--------------- */
+
+/* ----------------Practice Area Start-------------- */
+
+.practice{
+    min-height: 500px;
+    width: 100vw;
+    background-color: #111111;
+    color: #ffff;
+}
+
+.practice-icon {
+    color: #e8bf5d;
+    font-size: 40px;
+    padding-right: 20px;
+
+}
+/* ----------------Practice Area End-------------- */
+
+/* --------------testimonial Start----------------- */
+
+.testimonial-slide{
+    min-height: 800px;
+    width: 100vw;
+    background-image: url(image/index-client-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: #ffff;
+}
+
+.single-item img {
+    border-bottom: 20px solid #e8bf5d;
+    border-right: 20px solid #e8bf5d;
+}
+
+.single-item p{
+    line-height: 28px;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+.fa-quote-left{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 8px;
+    color: #e8bf5d;
+}
+
+/* --------------testimonial End----------------- */
+
+/* ----------Recent Publication Start---------- */
+
+.comment-share{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e8bf5d;
+    margin-right: 20px;
+}
+
+/* ----------Recent Publication End---------- */
+
+
+/* ---------------FAQ Start------------------ */
+.faq{
+    min-height: 700px;
+    width: 100vw;
+    background-image: url(image/index-FAQ-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.faq-left{
+
+}
+
+.tabcontent {
+    background-color: #e8bf5d;
+    min-height: 280px;
+    border-left: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tabcontent p {
+    padding: 10px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.tab {
+    width: 100%;
+    height: 10px;
+  }
+  
+.tab button {
+    display: block;
+    background-color: #1111;
+    color: #ffff;
+    padding: 10px 0px;
+    width: 100%;   
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #e8bf5d;
+    width: 97%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+.tab button:hover {
+    color: #e8bf5d;
+  }
+  
+.tab button.active {
+    color: #e8bf5d;
+  }
+
+  /* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+/* ---------------FAQ End------------------ */
